@@ -2,7 +2,7 @@ body{
     background-color: #999999;
 
 }
-nav{
+#nav-menu{
     display: flex;
     /* background-color: black; */
     font-family: Poppins, Arial, sans-serif;
