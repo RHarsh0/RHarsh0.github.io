@@ -64,11 +64,11 @@ justify-content: space-around;
 
     dis
 }
-#about-content{
+#user-detail-intro{
     width: 600px;
 
 }
-#user-detail-intro{
+#about-content{
 
     border: 1px solid black;
     display: grid;
