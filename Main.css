@@ -88,3 +88,9 @@ justify-content: space-around;
     display: flex;
     justify-content: space-around;
 }
+.project-img{
+    width: 400px;
+}
+.project-img>img{
+    width: 400px;
+}
