@@ -77,6 +77,9 @@ justify-content: space-around;
 }
 #tech-stack-logo-container{
     display: grid;
+    border: 1px solid salmon;
+    width: max-content;
+    margin-left: 60px;
     grid-template-columns: 200px 200px 200px 200px;
     gap: 50px;
 }
@@ -84,13 +87,37 @@ justify-content: space-around;
     width: 190px;
     height: 190px;
 }
+.tech-stack{
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #contact-logo-link{
     display: flex;
     justify-content: space-around;
 }
 .project-img{
-    width: 400px;
+    width: 480px;
 }
 .project-img>img{
-    width: 400px;
+    width: 490px;
+    height: 300px; ;
+}
+#project-box-cont{
+    display: grid;
+    border: 1px solid black;
+    width: max-content;
+    margin-left: 40px;
+    grid-template-columns: 500px 500px;
+    gap: 10px;
+}
+.project-card{
+    width: 490px;
+    height: 450px;
+    border: 1px solid brown;
+    padding: 5px 5px 5px 5px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
