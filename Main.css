@@ -1,5 +1,5 @@
 body{
-    background-color: #999999;
+    background-color: black;
 
 }
 #nav-menu{
@@ -120,4 +120,34 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#my-stats{
+    margin-top: 30px;
+    /* border: 1px solid darkblue; */
+    
+}
+#calendar{
+    margin-left: 400px;
+}
+#card-cont{
+    display: grid;
+    grid-template-columns:  600px 600px;
+    margin-bottom: 20px;
+    padding: 0px 20px 0px 20px;
+    /* border: 1px solid black; */
+}
+#github-streak-stats{
+    margin-left: 300px;
+}
+#github-stats-card{
+    width: 500px;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+#github-top-langs{
+    /* border: 1px solid black; */
+    height: 200px;
+    margin-top: 30px;
+    width: 500px;
+    margin-left: -40px;
 }
