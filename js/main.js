@@ -115,3 +115,10 @@
 	});
 
 })(jQuery);
+document.getElementById("resume-link-2").addEventListener("click",function(){
+	window.open('./resume/Harsh-Rai-Resume.pdf','_blank');
+});
+document.getElementById("resume-link-1").addEventListener("click",function(){
+	window.open('./resume/Harsh-Rai-Resume.pdf','_blank');
+});
+// download  onclick="window.open('./resume/Harsh-Rai-Resume.pdf')
