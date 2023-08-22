@@ -19,8 +19,15 @@
       width: 500px;
       height: 250px;
     }
+    #resume-link-1{
+      opacity:1;
+      color: red;
+      background-color: transparent;
+    }
     #resume-button-1{
-      opacity: 0.001;
+      opacity: 0.1;
+      background-color: black;
+      border: 0px;
     }
     
    </style>
@@ -77,10 +84,10 @@
           <li class="nav-item">
             <!-- <a id="resume-link-1" class="nav-link js-scroll resume"
                                 href="" download="resume\Harsh-Rai-Resume.pdf""><button id="resume-button-1"></button>Resume</button></a> -->
-                                <a class="nav-link js-scroll resume" id="resume-link-1"
+                                <a  id="resume-link-1"
                                 href="resume\Harsh-Rai-Resume.pdf" target="_blank" download="">
-                                <button onclick="resume()" id="resume-button-1">
-                                      Resume </button></a>
+                                <button class="nav-link js-scroll resume" onclick="resume()" id="resume-button-1">
+                                      RESUME </button></a>
                               
           </li>
         </ul>
@@ -168,11 +175,11 @@
                   <a id="resume-link-2" class="nav-link js-scroll"
                                       href="" download="./resume/Harsh-Rai-Resume.pdf">Resume</a>
                 </button> -->
-                <button onclick="resume()" id="resume-button-2" class="resume_btn">
-                  <a id="resume-link-2"  href="./resume/Harsh-Rai-Resume.pdf" target="_blank"
-                      download>
-                      Resume </a>
-              </button>
+                <a id="resume-link-2"  href="./resume/Harsh-Rai-Resume.pdf" target="_blank"
+                download>
+                <button onclick="resume()" id="resume-button-2" class="resume_btn" style="border: 0.5px solid lightgray;">
+                      Resume</button> </a>
+              
               <script>
                 function resume() {
                     window.open("./resume/Harsh-Rai-Resume.pdf", "_blank")
