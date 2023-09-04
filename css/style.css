@@ -1208,6 +1208,7 @@ footer .credits a {
   .navbar-b.navbar-trans .nav-link:before,
   .navbar-b.navbar-reduce .nav-link:before {
     margin-left: 18px;
+    /* background-color:red; */
   }
 
   .intro .intro-title {
@@ -1317,7 +1318,11 @@ footer .credits a {
       width: 100px;
       height: 100px;
   }
-
+  #github-top-langs{
+    width: 300px;
+    height: 300px;
+    margin-bottom: -120px;
+  }
 }
 
 /* small media query  */
@@ -1333,7 +1338,11 @@ footer .credits a {
       width: 60px;
       height: 60px;
   }
-
+  #github-top-langs{
+    width: 300px;
+    height: 300px;
+    margin-bottom: -120px;
+  }
 }
 .tech_stack_project {
   font-weight: bold;
@@ -1387,7 +1396,7 @@ footer .credits a {
 
 @media all and (min-width: 400px) and (max-width: 768px) {
   
-  .git-stats # .calendar{
+  .git-stats {
     width: 300px;
     height: 300px;
     margin-bottom: -120px;
@@ -1395,11 +1404,12 @@ footer .credits a {
   #coding_com{
     margin-top: 22px;
   }
+  
 }
 
 @media all and (min-width: 100px) and (max-width: 400px) {
   
-  .git-stats .calendar{
+  .git-stats {
     width: 200px;
     height: 150px;
     margin-bottom: -40px;
