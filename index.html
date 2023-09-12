@@ -314,7 +314,7 @@
           <div class="line-mf" style="margin-bottom:20px ;"></div>
          <div id="git_container">
             <div class="git_container">
-              <img id="github-streak-stats" class="git-stats" src="https://github-readme-streak-stats.herokuapp.com?user=RHarsh0&theme=highcontrast&border_radius=5.7&date_format=j%20M%5B%20Y%5D"/>
+              <img id="github-streak-stats" class="git-stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RHarsh0&layout=compact"/>
             </div>
             <div class="git_container">
               <img id="github-stats-card" class="git-stats" src="https://github-readme-stats.vercel.app/api?username=RHarsh0&hide=contribs,prse" />
@@ -326,10 +326,11 @@
       </div>
     </div>
     <div class="calendar">
-      <img id="github-top-langs" class="git-stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RHarsh0&layout=compact" alt="">
+      <img id="github-top-langs" class="git-stats" src="https://github-readme-streak-stats.herokuapp.com?user=RHarsh0&theme=highcontrast&border_radius=5.7&date_format=j%20M%5B%20Y%5D" alt="">
+    </div>
   </div>
   </div>
-
+  
   <!--/ =========================== PROJECT SECTION ================================= /-->
    <section id="projects" class="blog-mf sect-pt4 route">
     <div class="container">
@@ -346,7 +347,7 @@
           </div>
         </div>
       </div> 
-      <div class="row">
+      <div class="row project-card-cont">
 
         <!-- ========================= PROJECT-1 =========================== -->
 
@@ -594,4 +595,12 @@
 
 </body>
 </html>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+<script>
+  GitHubCalendar(".calendar", "RHarsh0");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "RHarsh0", { responsive: true });
+</script>
 
