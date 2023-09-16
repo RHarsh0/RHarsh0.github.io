@@ -1305,6 +1305,16 @@ footer .credits a {
       width: 110px;
       height: 110px;
   }
+  .card-blog{
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+  }
+  .project-card-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid blue; */
+  }
 }
 
 /* mobile media query  */
@@ -1449,5 +1459,5 @@ footer .credits a {
 
 
 .proj_desc{
-  text-align: center;
+  text-align: left;
 }
