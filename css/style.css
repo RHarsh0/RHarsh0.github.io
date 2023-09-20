@@ -1292,13 +1292,22 @@ footer .credits a {
 }
 
 /* tab media query  */
+@media all and (min-width: 990px) and (max-width: 1110px) {
+  
+  #tech-div{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: auto;
+      column-gap: 10px;
+      row-gap: 50px;
+  }}
 @media all and (min-width: 751px) and (max-width: 990px) {
   
   #tech-div{
       display: grid;
       grid-template-columns: repeat(3,1fr);
       grid-template-rows: auto;
-      column-gap: 40px;
+      column-gap: 10px;
       row-gap: 50px;
   }
   .tech-stack{
@@ -1316,9 +1325,8 @@ footer .credits a {
     /* border: 1px solid blue; */
   }
 }
-
 /* mobile media query  */
-@media all and (min-width: 480px) and (max-width: 751px) {
+@media all and (min-width: 630px) and (max-width: 751px) {
   #tech-div{
       display: grid;
       grid-template-columns: repeat(3,1fr);
@@ -1336,7 +1344,7 @@ footer .credits a {
 }
 
 /* small media query  */
-@media all and (min-width: 50px) and (max-width: 480px) {
+@media all and (min-width: 50px) and (max-width: 630px) {
   #tech-div{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -1440,7 +1448,7 @@ footer .credits a {
     gap: 20px;
   }
   .git_container {
-    /* border: 1px solid red; */
+    /* border: 1px solid blue; */
     width: 50%;
     height: 200px;
   }
@@ -1460,4 +1468,11 @@ footer .credits a {
 
 .proj_desc{
   text-align: left;
+}
+
+#tech-div>div{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
 }
