@@ -1271,19 +1271,30 @@ footer .credits a {
   margin: auto;
 }
 
-#tech-div {
+#tech-div{
   width: 90%;
   display: grid;
   /* border: 1px solid red; */
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-  grid-template-columns: repeat(5,1fr);
+  box-shadow: #0000000d 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  grid-template-columns: repeat(4,1fr);
   grid-template-rows: auto;
   column-gap: 50px;
   row-gap: 90px;
   margin: auto; 
   padding: 20px;
 }
-
+#tool-div{
+  width: 90%;
+  display: grid;
+  /* border: 1px solid red; */
+  box-shadow: #0000000d 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  column-gap: 50px;
+  row-gap: 90px;
+  margin: auto; 
+  padding: 20px;
+}
 .tech-stack {
   width: 150px;
   height: 150px;
@@ -1337,15 +1348,16 @@ footer .credits a {
       height: 100px;
   }
   #github-top-langs{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
     margin-bottom: -120px;
+    border: 1px solid black;
   }
 }
 
 /* small media query  */
 @media all and (min-width: 50px) and (max-width: 630px) {
-  #tech-div{
+  #tech-div, #tool-div{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto;
@@ -1357,8 +1369,8 @@ footer .credits a {
       height: 60px;
   }
   #github-top-langs{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 100px;
     margin-bottom: -120px;
   }
 }
@@ -1471,6 +1483,12 @@ footer .credits a {
 }
 
 #tech-div>div{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+#tool-div>div{
   display: flex;
   text-align: center;
   flex-direction: column;
