@@ -1347,12 +1347,7 @@ footer .credits a {
       width: 100px;
       height: 100px;
   }
-  #github-top-langs{
-    width: 250px;
-    height: 200px;
-    margin-bottom: -120px;
-    border: 1px solid black;
-  }
+  
 }
 
 /* small media query  */
@@ -1365,13 +1360,11 @@ footer .credits a {
   row-gap: 30px;
   }
   .tech-stack{
-      width: 60px;
-      height: 60px;
+      width: 50px;
+      height: 50px;
   }
-  #github-top-langs{
-    width: 150px;
-    height: 100px;
-    margin-bottom: -120px;
+  .tech-stack~h2{
+    font-size: 14px;
   }
 }
 .tech_stack_project {
@@ -1434,6 +1427,10 @@ footer .credits a {
   #coding_com{
     margin-top: 22px;
   }
+  /* #github-top-langs{
+    width: 70%;
+    height: 50px;
+  } */
   
 }
 
@@ -1493,4 +1490,10 @@ footer .credits a {
   text-align: center;
   flex-direction: column;
   /* border: 1px solid black; */
+}
+#github-top-langs{
+  width: 70%;
+  height: 200px;
+  margin-bottom: -120px;
+  border: 1px solid black;
 }
